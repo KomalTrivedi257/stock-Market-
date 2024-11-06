@@ -1,0 +1,137 @@
+ body{
+    background-color: #031523;
+    color: white;
+    font-family:roboto;
+}
+
+#myChart{
+    display: block;
+    height: 450px;
+    width: 800px;
+}
+
+#stock{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.container{
+    float: left;
+    margin-top: 40px;
+    height: 450px;
+    width: 950px;
+    border-radius: 5px;
+    background-color:#082841;
+}
+
+.month{
+    background-color: #041522;
+    border-radius: 10px;
+    width:80px;
+    height: 30px;
+    font-size:16px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    display:block;
+    cursor: pointer;   
+} 
+
+.month:hover{
+    background-color: #082841;
+   }
+
+#button{
+   margin-top: 50px;
+    display:flex;
+    flex-direction: row;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 60px;
+   
+} 
+
+#side-container{
+    float: right;
+    margin-right: 70px;
+    margin-top: 35px;
+    text-align: center;
+} 
+
+
+
+
+.btn{
+    border-radius: 5px;
+    width:80px;
+    height: 30px;
+    font-size:16px;
+    color: white;
+    text-align: center;
+    background-color: #041522;
+    cursor: pointer;
+    margin-right: 10px;
+} 
+
+.btn:hover{
+    background-color: #082841;
+}
+ 
+
+.doller{
+    font-size:16px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.perc{
+    font-size:16px;
+    color:#45C82D;
+    font-weight: bold;
+    text-align: center;
+}
+
+.percentage{
+    font-size:16px;
+    color: rgb(157, 44, 44);
+    font-weight: bold;
+    text-align: center;
+}
+
+.custum{
+    display:none;
+   margin-top: 12px;
+}
+
+
+
+
+#summary{
+     margin-top: 22px; 
+     margin-left: 10px;
+}
+
+#title{
+    font-size: 20px;
+    font-weight: bold;
+    
+
+}
+
+#desc{
+    font-size: 14px;
+    margin: 2px;
+}
+
+
+.key{
+    color: white;
+    font-size: 15px;
+}
+.percentage{
+    color:#45C82D;;
+    font-size: 15px;
+}

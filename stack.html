@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chart.js </title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+ 
+
+</head>
+<body>
+    <h1 id="stock">Stock Market Analyis</h1>
+  <div class="container">
+        <canvas id="myChart"></canvas>
+       
+      <div id="button">
+        <button onclick="changeTerm('1mo')"class="month">1 Month</button>
+        <button onclick="changeTerm('3mo')"class="month">3 Month</button>
+        <button onclick="changeTerm('1y')" class="month">1 Year</button>
+        <button  onclick="changeTerm('5y')"class="month">5 year</button>
+    </div>
+    <div id ="summary">
+      <div id="title"></div>
+      <div id="desc"></div>
+    </div>
+  </div>
+
+
+      <div id="side-container">
+
+          <div id="AAPL"class="custum">
+          <button onclick="getDetails('AAPL')" class="btn">AAPL</button>
+          <span class="doller">$3.953</span>
+          <span class="perc">0.24%</span>
+          </div>
+           
+          <div id="MSFT"class="custum">
+          <button onclick="getDetails('MSFT')" class="btn">MSFT</button>
+          <span class="doller">$26.178</span>
+          <span class="perc">0.33%</span>
+          </div>
+        
+          <div id="GOOGL"class="custum">
+          <button onclick="getDetails('GOOGL')" class="btn">GOOGL</button>
+          <span class="doller">$20.507</span>
+          <span class="perc">0.21%</span>
+          </div>
+
+          <div id="AMZN"class="custum">
+          <button onclick="getDetails('AMZN')" class="btn">AMZN</button>
+          <span class="doller">$15.064</span>
+          <span class="perc">0.01%</span>
+          </div>
+
+          <div id="PYPL"class="custum">
+          <button  onclick="getDetails('PYPL')" class="btn">PYPL</button>
+          <span class="doller">$17.699</span>
+          <span class="perc">0.10%</span>
+          </div>
+
+          <div id="TSLA"class="custum">
+          <button  onclick="getDetails('TSLA')" class="btn">TSLA</button>
+          <span class="doller">$14.129</span>
+          <span class="percentage">0.00%</span>
+          </div>
+
+          <div id="JPM"class="custum">
+          <button onclick="getDetails('JPM')" class="btn">JPM</button>
+          <span class="doller">$98.108</span>
+          <span class="perc">0.35%</span>
+          </div>
+
+          <div id="NVDA"class="custum">
+          <button  onclick="getDetails('NVDA')" class="btn">NVDA</button>
+          <span class="doller">$9.915</span>
+          <span class="perc">0.19%</span>
+          </div>
+
+          <div id="NFLX"class="custum">
+          <button onclick="getDetails('NFLX')" class="btn">NFLX</button>
+          <span class="doller">$46.654</span>
+          <span class="percentage">0.00%</span>
+          </div>
+
+          <div id="DIS"class="custum">
+          <button  onclick="getDetails('DIS')" class="btn">DIS</button>
+          <span class="doller">$53.563</span>
+          <span class="perc">0.05%</span>
+          </div>
+        
+      </div>
+      <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
